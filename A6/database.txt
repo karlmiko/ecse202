@@ -1,0 +1,245 @@
+
+// Assignment 6 - ECSE202
+// Karl Michel Koerich
+// 260870321
+// Fall 2018
+
+Building database...
+
+Finished...
+
+
+sdb: ln
+
+Student Record Database sorted by Last Name
+
+Renita         Allbright          1716     81   
+Kortney        Arner              1371     84   
+Francene       Aylor              2728     72   
+Dorethea       Benes              2583     97   
+Dara           Boyette            1974     81   
+Teisha         Britto             2871     68   
+Cristobal      Butcher            2969     77   
+Shantelle      Cassady            2079     94   
+Tasia          Cranford           2274     73   
+Yuonne         Daggett            2029     74   
+Caleb          Denning            1257     71   
+Suzanna        Duff               1583     91   
+Billy          Ennals             2191     82   
+Edward         Follett            1345     71   
+Loree          Foor               1370     74   
+Clarisa        Freeze             2135     70   
+Dante          Galentine          1194     89   
+Marvella       Greenlee           2582     82   
+Sarita         Gutierez           1512     95   
+Eleanora       Hamel              1266     78   
+Kamala         Harbison           1645     92   
+Lavinia        Jenkinson          2959     86   
+Kerstin        Kohls              2130     92   
+Lucia          Lally              1359     76   
+Vanda          Lamarr             1456     82   
+Kristyn        Lanoue             2101     72   
+Filomena       Leasure            1946     79   
+Sammie         Mackay             2330     90   
+Barton         Mango              1198     68   
+Dewey          Manzi              2563     77   
+Kori           Marsch             2524     65   
+Alona          Mclees             1097     99   
+Felicita       Mushrush           2825     76   
+Mariann        Novack             1549     79   
+Dianne         Plaisted           2637     57   
+Matilda        Poll               2729     75   
+Anika          Pop                1452     76   
+Luba           Quaranta           2790     75   
+Tamie          Roza               2586     93   
+Joleen         Saulnier           2356     81   
+Holley         Sia                1497     74   
+Matilde        Spece              2917     68   
+Nia            Stutes             2872     97   
+Suzi           Tait               2519     82   
+Adria          Tamplin            2675     94   
+Hyon           Thibodaux          2985     87   
+Yvette         Wojtowicz          2667     59   
+Stasia         Wolford            2193     68   
+Jay            Woll               2986     76   
+Ciera          Woolery            1531     81   
+
+sdb: li
+
+Student Record Database sorted by Student ID
+
+Alona          Mclees             1097     99   
+Dante          Galentine          1194     89   
+Barton         Mango              1198     68   
+Caleb          Denning            1257     71   
+Eleanora       Hamel              1266     78   
+Edward         Follett            1345     71   
+Lucia          Lally              1359     76   
+Loree          Foor               1370     74   
+Kortney        Arner              1371     84   
+Anika          Pop                1452     76   
+Vanda          Lamarr             1456     82   
+Holley         Sia                1497     74   
+Sarita         Gutierez           1512     95   
+Ciera          Woolery            1531     81   
+Mariann        Novack             1549     79   
+Suzanna        Duff               1583     91   
+Kamala         Harbison           1645     92   
+Renita         Allbright          1716     81   
+Filomena       Leasure            1946     79   
+Dara           Boyette            1974     81   
+Yuonne         Daggett            2029     74   
+Shantelle      Cassady            2079     94   
+Kristyn        Lanoue             2101     72   
+Kerstin        Kohls              2130     92   
+Clarisa        Freeze             2135     70   
+Billy          Ennals             2191     82   
+Stasia         Wolford            2193     68   
+Tasia          Cranford           2274     73   
+Sammie         Mackay             2330     90   
+Joleen         Saulnier           2356     81   
+Suzi           Tait               2519     82   
+Kori           Marsch             2524     65   
+Dewey          Manzi              2563     77   
+Marvella       Greenlee           2582     82   
+Dorethea       Benes              2583     97   
+Tamie          Roza               2586     93   
+Dianne         Plaisted           2637     57   
+Yvette         Wojtowicz          2667     59   
+Adria          Tamplin            2675     94   
+Francene       Aylor              2728     72   
+Matilda        Poll               2729     75   
+Luba           Quaranta           2790     75   
+Felicita       Mushrush           2825     76   
+Teisha         Britto             2871     68   
+Nia            Stutes             2872     97   
+Matilde        Spece              2917     68   
+Lavinia        Jenkinson          2959     86   
+Cristobal      Butcher            2969     77   
+Hyon           Thibodaux          2985     87   
+Jay            Woll               2986     76   
+
+sdb: fn
+
+Enter name to search: roza
+
+Student Name: Tamie Roza
+Student Id: 2586
+Total Grade: 93
+
+
+
+sdb: fn
+
+Enter name to search: will
+
+There is no student with that name.
+
+
+sdb: ?
+
+LN List all the records in the database ordered by last name.
+LI List all the records in the database ordered by student ID.
+FN Prompts for a name and lists the record of the student with the corresponding name.
+FI Prompts for a name and lists the record of the student with the corresponding ID.
+HELP Prints this list.
+? Prints this list
+QUIT Exits the program.
+
+
+sdb: HElp
+
+LN List all the records in the database ordered by last name.
+LI List all the records in the database ordered by student ID.
+FN Prompts for a name and lists the record of the student with the corresponding name.
+FI Prompts for a name and lists the record of the student with the corresponding ID.
+HELP Prints this list.
+? Prints this list
+QUIT Exits the program.
+
+
+sdb: 9ubc92bvu2
+
+Valid input, please.
+
+
+sdb: fi
+
+Enter Student ID to search: 12355
+
+There is no student with that ID.
+
+
+sdb: 1234
+
+Valid input, please.
+
+
+sdb: li
+
+Student Record Database sorted by Student ID
+
+Alona          Mclees             1097     99   
+Dante          Galentine          1194     89   
+Barton         Mango              1198     68   
+Caleb          Denning            1257     71   
+Eleanora       Hamel              1266     78   
+Edward         Follett            1345     71   
+Lucia          Lally              1359     76   
+Loree          Foor               1370     74   
+Kortney        Arner              1371     84   
+Anika          Pop                1452     76   
+Vanda          Lamarr             1456     82   
+Holley         Sia                1497     74   
+Sarita         Gutierez           1512     95   
+Ciera          Woolery            1531     81   
+Mariann        Novack             1549     79   
+Suzanna        Duff               1583     91   
+Kamala         Harbison           1645     92   
+Renita         Allbright          1716     81   
+Filomena       Leasure            1946     79   
+Dara           Boyette            1974     81   
+Yuonne         Daggett            2029     74   
+Shantelle      Cassady            2079     94   
+Kristyn        Lanoue             2101     72   
+Kerstin        Kohls              2130     92   
+Clarisa        Freeze             2135     70   
+Billy          Ennals             2191     82   
+Stasia         Wolford            2193     68   
+Tasia          Cranford           2274     73   
+Sammie         Mackay             2330     90   
+Joleen         Saulnier           2356     81   
+Suzi           Tait               2519     82   
+Kori           Marsch             2524     65   
+Dewey          Manzi              2563     77   
+Marvella       Greenlee           2582     82   
+Dorethea       Benes              2583     97   
+Tamie          Roza               2586     93   
+Dianne         Plaisted           2637     57   
+Yvette         Wojtowicz          2667     59   
+Adria          Tamplin            2675     94   
+Francene       Aylor              2728     72   
+Matilda        Poll               2729     75   
+Luba           Quaranta           2790     75   
+Felicita       Mushrush           2825     76   
+Teisha         Britto             2871     68   
+Nia            Stutes             2872     97   
+Matilde        Spece              2917     68   
+Lavinia        Jenkinson          2959     86   
+Cristobal      Butcher            2969     77   
+Hyon           Thibodaux          2985     87   
+Jay            Woll               2986     76   
+
+sdb: fi
+
+Enter Student ID to search: 2563
+
+Student Name: Dewey Manzi
+Student Id: 2563
+Total Grade: 77
+
+
+
+sdb: quit
+
+Program terminated.

@@ -1,0 +1,32 @@
+
+// Assignment 5 - ECSE202
+// Karl Michel Koerich
+// 260870321
+// Fall 2018
+
+Salaminho:Desktop KarlKoerich$ ./dec2base 65535
+The base-2 form of 65535 is: 1111111111111111
+Salaminho:Desktop KarlKoerich$ ./dec2base 65535 16
+The base-16 form of 65535 is: FFFF
+Salaminho:Desktop KarlKoerich$ ./dec2base 3333333 3
+The base-3 form of 3333333 is: 20021100110210
+Salaminho:Desktop KarlKoerich$ ./dec2base 100000 36
+The base-36 form of 100000 is: 255S
+Salaminho:Desktop KarlKoerich$ ./dec2base 0
+The base-2 form of 0 is: 0
+Salaminho:Desktop KarlKoerich$ ./dec2base 104976 18
+The base-18 form of 104976 is: 10000
+Salaminho:Desktop KarlKoerich$ ./dec2base 104975 18
+The base-18 form of 104975 is: HHHH
+Salaminho:Desktop KarlKoerich$ ./dec2base 2147483647 16
+The base-16 form of 2147483647 is: 7FFFFFFF
+Salaminho:Desktop KarlKoerich$ ./dec2base 2147483647 32
+The base-32 form of 2147483647 is: 1VVVVVV
+Salaminho:Desktop KarlKoerich$ ./dec2base 2147483648
+Error: number must be in the range of [0,2147483647]
+Salaminho:Desktop KarlKoerich$ ./dec2base -100 4
+Error: number must be in the range of [0,2147483647]
+Salaminho:Desktop KarlKoerich$ ./dec2base 100 -4
+Error: base must be in the range of [2,36]
+Salaminho:Desktop KarlKoerich$ ./dec2base 436567890 12
+The base-12 form of 436567890 is: 102257556
