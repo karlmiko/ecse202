@@ -2,7 +2,7 @@ Karl Michel Koerich.
 
 karlmiko@gmail.com
 
-This repository contains all assignments done by me for the discipline ECSE202 at Mcgill University, Fall 2018.
+This repository contains all assignments done for ECSE202 at Mcgill University, Fall 2018.
 
 The following 4 are projects written in Java:
 ECSE202_A1,
